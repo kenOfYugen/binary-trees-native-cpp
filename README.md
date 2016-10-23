@@ -6,12 +6,15 @@ as a node.js addon.
 
 ## Install
 `npm install kenOfYugen/binary-trees-native-cpp`
-[Tested on Arch Linux]
+
+Tested on Arch Linux.
+
+If it doesn't compile on your system, make sure that the dependencies specified in `binding.gyp` are met, and try again.
 
 ## Use
 
 ```javascript
-binaryTreesCPP = require('binary-trees-native-cpp');
+var binaryTreesCPP = require('binary-trees-native-cpp');
 
 binaryTreesCPP.run(10);
 ```
