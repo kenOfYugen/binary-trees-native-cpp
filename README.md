@@ -6,6 +6,7 @@ as a node.js addon.
 
 ## Install
 `npm install kenOfYugen/binary-trees-native-cpp`
+[Tested on Arch Linux]
 
 ## Use
 
